@@ -4,24 +4,6 @@ p {
   font-family: sans-serif;
 }
 
-.page-icon {
-  width: 20%;
-  display: block;
-  margin-left: 80px;
-  margin-right: auto;
-}
-
-.content-container {
-  display: flex;
-  align-items: center;
-}
-
-.content {
-  text-align: center;
-  margin-right: 50px;
-  width: 60%;
-}
-
 .img-title {
   margin-left: 30px;
 }
