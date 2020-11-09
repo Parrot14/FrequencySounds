@@ -4,27 +4,6 @@ p {
   font-family: sans-serif;
 }
 
-.element-container {
-  display: flex;
-  align-items: center;
-  margin:0px auto;
-  justify-content: space-around;
-  width: 90%;
-}
-
-.element {
-  background: #ffffff;
-  border: 3px solid lightgrey;
-  text-align: center;
-  padding: 20px;
-  height: 370px;
-  flex-basis: 250px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  transition: all 0.1s ease-in;
-  box-shadow: 3px 4px 5px gray;
-}
-
 .page-icon {
   width: 20%;
   display: block;
@@ -41,23 +20,6 @@ p {
   text-align: center;
   margin-right: 50px;
   width: 60%;
-}
-
-.element img {
-  width: 90%;
-  display: block;
-  margin: auto;
-  margin-top: 100px;
-}
-
-.element:hover {
-  box-shadow: 5px 7px 8px gray;
-}
-
-.title {
-  text-align: center;
-  font-size: 25px;
-  margin-bottom: 20px;
 }
 
 .img-title {
