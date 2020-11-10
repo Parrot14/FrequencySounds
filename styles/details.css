@@ -18,13 +18,6 @@
   margin-top: 50px;
 }
 
-.box {
-  height: auto;
-  width: 350px;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .button-container {
   display: flex;
   justify-content: center;
