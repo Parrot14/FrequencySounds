@@ -1,0 +1,36 @@
+
+.details {
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.box {
+  width: 300px;
+  float: right;
+}
+
+.button-container {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content > .details, .content > .button-container {
+  width: 25%;
+  height: 400px;
+  padding: 10px;
+}
+
+.cart-button {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
