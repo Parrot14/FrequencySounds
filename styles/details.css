@@ -10,9 +10,8 @@
 }
 
 .box {
-  height: 300px;
-  width: 300px;
-  float: right;
+  height: 200px;
+  width: 200px;
 }
 
 .button-container {
@@ -23,9 +22,9 @@
 }
 
 .content > .details, .content > .button-container {
-  width: 25%;
+  width: 30%;
   height: 400px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .cart-button {
@@ -33,5 +32,6 @@
   background-color: black;
   padding: 20px;
   border-radius: 5px;
-  margin-top: 40px;
+  margin: 40px auto 0 auto;
+  font-size: 15px;
 }
