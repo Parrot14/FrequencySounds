@@ -1,8 +1,9 @@
 
 .slideshow-container {
-  max-width: 250px;
+  width: 350px;
   position: relative;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mySlides {
