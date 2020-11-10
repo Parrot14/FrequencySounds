@@ -1,5 +1,11 @@
 
 .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border: 3px solid lightgrey;
+  box-shadow: 3px 4px 5px gray;
 }
 
 .content {
@@ -24,7 +30,7 @@
 .content > .details, .content > .button-container {
   width: 30%;
   height: 400px;
-  padding: 20px;
+  margin: 10px;
 }
 
 .cart-button {
