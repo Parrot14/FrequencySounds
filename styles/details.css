@@ -16,8 +16,8 @@
 }
 
 .box {
-  height: 350px;
-  width: auto;
+  height: auto;
+  width: 350px;
   margin-top: auto;
   margin-bottom: auto;
 }
