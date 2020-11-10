@@ -16,12 +16,13 @@
 }
 
 .box {
-  height: 200px;
-  width: 200px;
+  height: 350px;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .button-container {
-  width: 25%;
   display: flex;
   justify-content: center;
   flex-direction: column;
