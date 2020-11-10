@@ -48,7 +48,16 @@
       <br>
       - 5 VOCALES
     </div>
-    <img src="/img/SAMPLE_BOX.png" alt="Product Box" class="box" width="350px">
+    <div class="slideshow-container">
+     <img class="mySlides fade" src="/img/STELLAR_ART.jpg" style="width:350px">
+     <img class="mySlides fade" src="/img/SAMPLE_BOX.png" style="width:350px">
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+     </div>
+    </div>
     <center class="button-container">
      <span>STELLAR</span>
      <br>
@@ -61,3 +70,27 @@
   </div>
  </body>
 </html>
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  } 
+</script>
