@@ -10,7 +10,7 @@
   height: 300px;
   width: 250px;
   margin: 5px;
-  transition: all 0.1s ease-in;
+  transition: all 0.1s ease-out;
   border: 2px solid transparent;
 }
 
@@ -23,4 +23,5 @@
 .product:hover {
   box-shadow: 5px 7px 8px gray;
   border-color: lightgrey;
+  transition: all 0.5s ease-in;
 }
