@@ -1,3 +1,6 @@
+.details center {
+  margin-bottom: 30px; 
+}
 
 .details {
   display: flex;
