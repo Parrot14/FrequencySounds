@@ -47,4 +47,6 @@
 
 .cart-button:hover {
   box-shadow: 5px 7px 8px gray; 
+  color: black;
+  background-color: lightgray;
 }
