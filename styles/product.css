@@ -9,7 +9,7 @@
 .product {
   height: 300px;
   width: 250px;
-  margin: 5px
+  margin: 5px;
   transition: all 0.1s ease-in;
 }
 
@@ -21,4 +21,5 @@
 
 .product:hover {
   box-shadow: 5px 7px 8px gray;
+  border: 3px solid lightgrey;
 }
